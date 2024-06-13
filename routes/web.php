@@ -18,8 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/welcome2', function () {
-    return view('welcome2');
+Route::get('/generation-tailwind', function () {
+    return view('generation-tailwind');
 });
-Route::post('/export', [ExportHTML::class, 'export']);
 Route::post('/convert-to-tailwind', [HtmlConversionController::class, 'convertToTailwind']);
+
+Route::post('/export', [ExportHTML::class, 'export']);
