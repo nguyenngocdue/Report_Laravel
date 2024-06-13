@@ -14,6 +14,13 @@
     "laravel-mix": "^6.0.49",
     "lodash": "^4.17.19",
     "posthtml": "^0.16.4",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.77.5",
+    "sass-loader": "^12.6.0",
     "tailwindcss": "^2.2.19"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "trumbowyg": "^2.28.0"
   }
 }

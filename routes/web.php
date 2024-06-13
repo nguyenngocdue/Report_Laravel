@@ -16,8 +16,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('tinymce');
+});
+Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/generation-tailwind', function () {
     return view('generation-tailwind');
 });
